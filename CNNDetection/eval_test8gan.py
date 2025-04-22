@@ -13,7 +13,7 @@ import numpy as np
 
 # CUDA_VISIBLE_DEVICES=0 python eval_test8gan.py --dataroot  {Test-dir} --model_path {Model-Path}
 
-vals = ['train']
+vals = ['test']
 multiclass = [0]
 
 opt = TestOptions().parse(print_options=False)
